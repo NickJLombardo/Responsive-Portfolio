@@ -226,12 +226,7 @@ input[type=submit] {
     padding-right:150px;
     padding-bottom:150px;
   } 
-  p{color:greenyellow;
-  }
-
-
-
-
+  
   footer{
     margin-top:150px;
   }
@@ -258,19 +253,9 @@ input[type=submit] {
   
   }
   
-  p{color:purple;
-  }
-
-
 footer{
   margin-top:150px;
 }
-
-
-
-
-
-
 
 
 
@@ -290,8 +275,8 @@ footer{
       position:center;
     }
 
-   p{float:right;
-     color:red;
+   p {
+     float:right;
      width:100%;
     }
     #main-container{
