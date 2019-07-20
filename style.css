@@ -53,10 +53,10 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  position: static;
   z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
+  margin: -8px 0 30px;
   overflow: auto;
   color: #ffffff;
   background: #ffffff;
@@ -120,7 +120,7 @@ h3, h2 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 50px;
   min-height: calc(100vh - 70px);
 }
 
@@ -140,12 +140,13 @@ h3, h2 {
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
+  margin: 20px 43px 25px;
   overflow: auto;
 }
 
 .work:nth-child(even) {
   margin-right: 40px;
+  margin-left:140px;
 }
 
 .work img {
